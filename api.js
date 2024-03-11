@@ -40,7 +40,7 @@ fetch(`https://api.open-meteo.com/v1/gem?latitude=43.6532&longitude=79.3832&hour
                 jacket.appendChild(document.createTextNode('Puffer'));
             } else if (6 <= temperatureSet[i] <= 9){
                 jacket.appendChild(document.createTextNode('Coat'));
-            } else if (6 <= temperatureSet[i] <= 9){
+            } else if (10 <= temperatureSet[i] <= 11){
                 jacket.appendChild(document.createTextNode('Cardigan'));
             } else {
                 jacket.appendChild(document.createTextNode('No jacket'));
