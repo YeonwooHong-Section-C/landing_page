@@ -1,26 +1,15 @@
- # Explnation about API
- Open-Meteo(https://open-meteo.com/)
- Open-meteo.com offers precise, location-based weather forecasts data. It's easy to use, providing detailed predictions for temperature, precipitation, wind, and humidity and dosen't need an Authentication key or CORS setting.
+ # Design choice
+- To create a clear and minimalist aesthetic, I utilized monochromatic colors throughout except for Humber's main color, which is featured exclusively on the hero section's button.
+- Employing a relatively smaller font size on the header side adds a touch of modernity.
+- While the overall impression remains modest, I gave a small element of amusement by adding a shake event on the repository links.
 
- # Reason to choose
- Feeling the warmth lately, I struggled to pick the right jacket. Thought it'd be helpful to create a site offering weather updates and clothing suggestions.
 
- # Trouble shooting
- ### 1. Contents shrink to fit in the flexbox. 
+
+ # How to view the project
+ 1. clone this repository and open folder in VScode
+ 2. Install extension Liver Server
+ 3. Right click index.html file, and select Open with Live Server
+
  
- List to try
- ```
-    flex-grow: 1 (grow proportionally)
-    flex-shrink: 1 (shrink proportionally)
-    flex-basis: auto (initial size based on content size)
-
-    //same as
-    flex: 1 1 auto
- ```
-
- ## 2. Syntex to access JS variables in HTML code
- Need to search more
- ```
-   // X
-    <h2>Today's {currentDate}</h2>
- ```
+ # Refatoring list
+ - Display repository list's 4 items in a row.

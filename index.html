@@ -3,19 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations and Media Queries</title>
+    <link rel="stylesheet" href="styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="api.css">
-    <title>API Assignment</title>
-</head>
 
+</head>
 <body>
-    <div id="wrapper">
-        <h2 id="title"></h2><h2 id="title2">What kind of jacket should I wear in Toronto?</h2>
-        <div id="wrap">
+    <!-- Header with logo and navbar -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Yeonu Inc.</h1>
+            <nav class="navigation">
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link">Main</a></li>
+                    <li><a href="#repositories" class="nav-link">Repositories</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-    <script type="text/javascript" src="api.js"></script>
+    </header>
+
+    <!-- Hero section -->
+    <section id="hero" class="section hero-section">
+        <div class="hero-container">
+            <h2 class="hero-title">What We Do</h2>
+            <p class="hero-description">Provide sample codes based on what we learned in the Web Programming and Design course during the winter 2024 semester.</p>
+            <a href="https://www.humber.ca/course.html?code=CPAN%20134&year=2024" class="btn">Check the course detail</a>
+        </div>
+    </section>
+
+    <!-- Repository section -->
+    <section id="repositories" class="section repositories-section">
+        <div class="container">
+            <h2 class="section-title">Repositories</h2>
+            <div class="repository">
+                <h3 class="repository-title">- HTML/CSS</h3>
+                <a href="https://github.com/YeonwooHong-Section-C/personal_website"><p class="repository-description">Personal website</p></a>
+            </div>
+            <div class="repository">
+                <h3 class="repository-title">- Flexbox</h3>
+                <a href="https://github.com/YeonwooHong-Section-C/flexbox_practice"><p class="repository-description">About me page</p></a>
+            </div>
+            <div class="repository">
+                <h3 class="repository-title">- Media Queries</h3>
+                <a href="https://github.com/YeonwooHong-Section-C/media_query_practice"><p class="repository-description">Music theme website</p></a>
+            </div>
+            <div class="repository">
+                <h3 class="repository-title">- Javascript</h3>
+                <a href="https://github.com/YeonwooHong-Section-C/todo_list"><p class="repository-description">To-do list</p></a>
+            </div>
+            <div class="repository">
+                <h3 class="repository-title">- Javascript Fetch</h3>
+                <a href="https://github.com/YeonwooHong-Section-C/openAPI_practice"><p class="repository-description">Today's Jacket Recommendation website</p></a>
+            </div>
+            <div class="repository">
+                <h3 class="repository-title">- Lightbox</h3>
+                <a href="https://github.com/YeonwooHong-Section-C/lightbox_practice"><p class="repository-description">Photo gallary with filter</p></a>
+            </div>
+            <div class="repository">
+                <h3 class="repository-title">- Bootstrap</h3>
+                <a href="https://github.com/YeonwooHong-Section-C/bootstrap_practice"><p class="repository-description">Introduction site for Seoul</p></a>
+            </div>
+            <div class="repository">
+                <h3 class="repository-title">- Animation/Media Queries</h3>
+                <a href="https://github.com/YeonwooHong-Section-C/landing_page"><p class="repository-description">Landing page</p></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Yeonwoo Hong. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
